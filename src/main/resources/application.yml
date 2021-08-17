@@ -5,3 +5,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    serviceUrl:
+      defaultZone: https://placeur-service-registry.herokuapp.com//eureka/
+      non-secure-port: 80
+      secure-port: 443
